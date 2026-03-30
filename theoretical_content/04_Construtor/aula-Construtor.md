@@ -23,11 +23,12 @@ Nesta aula, vamos entender como os objetos são "fabricados". O **Construtor** �
 
 ---
 
-### 💻 Exemplo : A Classe (O Molde)
+### 💻 Exemplo : A Classe e Main (O Molde)
 
 Veja como definimos o construtor para obrigar que todo `Celular` nasça com uma marca e um modelo:
 
 ```java
+// CLASSE CELULAR 
 public class Celular {
     String marca;
     String modelo;
@@ -43,6 +44,8 @@ public class Celular {
         System.out.println("Celular: " + marca + " | Modelo: " + modelo);
     }
 }
+
+
 
 // --------- EXEMPLO DE CODIGO NA MAIN --------- :
 public class Main {
